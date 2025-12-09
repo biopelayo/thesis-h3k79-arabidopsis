@@ -1,0 +1,5 @@
+# Analysis notebooks
+
+R and Python notebooks used for EDA, statistics and plotting.
+
+Organised by chapter (e.g. `chapter3_eda.Rmd`, `chapter4_models.ipynb`, etc.).
