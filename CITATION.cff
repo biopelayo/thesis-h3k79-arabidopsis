@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this thesis or its associated code, please cite it as below."
+title: "Histone H3K79 in Arabidopsis: Proteomic Detection and Context Across Development and Stress"
+authors:
+  - family-names: "González de Lena"
+    given-names: "Pelayo"
+    orcid: "https://orcid.org/0000-0001-9409-1457"
+keywords:
+  - epiproteomics
+  - histone PTMs
+  - Arabidopsis thaliana
+  - H3K79
+  - EpiProfile_PLANTS
+license: "MIT"
+type: "thesis"
+abstract: "Computational and experimental work on histone post-translational modifications in Arabidopsis thaliana, with a focus on H3K79 across developmental stages and stress conditions."
