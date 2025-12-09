@@ -1,0 +1,105 @@
+# Thesis – H3K79 in Arabidopsis (working repo)
+
+This repository contains the working materials for my PhD thesis on
+**histone H3K79 post-translational modifications in _Arabidopsis thaliana_**.
+It integrates experimental results, code, figures and links to public datasets.
+
+> Nota: El título definitivo de la tesis está aún en definición.  
+> Aquí se documenta la estructura científica y técnica del manuscrito.
+
+---
+
+## 1. Scope of the thesis
+
+The thesis focuses on:
+
+- Proteomic readout of the **histone code** in plants.
+- Detection and quantification of **H3K79me1/2/3 and H3K79ac** in _Arabidopsis_.
+- Development and validation of **EpiProfile_PLANTS**, an adaptation of
+  EpiProfile 2.0 for plant histone proteomics.
+- Application of this workflow to:
+  - A developmental gradient in the Arabidopsis rosette (leaf ontogeny).
+  - Public datasets on chromatin instability and genotoxic stress (_PXD046034_).
+- Reproducible pipelines from **WIFF/RAW → mzML → MS1/MS2 → hPTM matrices**.
+
+---
+
+## 2. Planned chapter structure
+
+The current working structure (UNIOVI style) is:
+
+1. **Chapter 1 – Introduction and objectives**  
+   - Plant chromatin and epigenomic regulation (DNA methylation, histone PTMs, remodelers, ncRNA).  
+   - Leaf senescence as a developmental gradient in the Arabidopsis rosette (BGSR).  
+   - Why proteomic readout of histone PTMs in plants.  
+   - Objectives and working hypotheses of the thesis.
+
+2. **Chapter 2 – EpiProfile_PLANTS: a reproducible workflow for plant histone proteomics**  
+   - Adaptation of EpiProfile 2.0 to plants (Arabidopsis, Marchantia, Chlamydomonas).  
+   - Software architecture: orchestration, histone catalogs/layouts, MS preprocessing,
+     core quantification, QC/auditing, reporting and good practices (GPL-3, FAIR).  
+   - Validation on public datasets (e.g. PXD010102, PXD046034) and internal controls.  
+
+3. **Chapter 3 – Histone PTM landscapes across Arabidopsis leaf ontogeny (BGSR)**  
+   - Experimental design: four stages of rosette development (Young, Bottom, Floor, Senescence).  
+   - LC–MS/MS acquisition and histone proteomics workflow.  
+   - State-of-the-art exploratory data analysis (EDA) and differential analysis of hPTMs.  
+   - Focus on H3K79 marks as a case study (first detection and quantitative patterns).  
+
+4. **Chapter 4 – Reanalysis of dataset PXD046034 with EpiProfile_PLANTS**  
+   - Description of the original study (chromatin instability / genotoxic stress context).  
+   - Open and reproducible re-analysis using the plant-specific workflow.  
+   - hPTM profiles, QC, normalization and statistical models.  
+   - Interpretation in the framework of plant chromatin biology.  
+   - (Multi-omics integration is considered as future work, not part of the core results.)
+
+5. **Chapter 5 – General discussion and conclusions**  
+   - Synthesis of results from Chapters 2–4.  
+   - Biological interpretation of H3K79 dynamics in development and stress.  
+   - Methodological contributions: from WIFF to biology in plant histone proteomics.  
+   - Limitations and future directions (software, datasets, experimental validation).  
+
+Appendices and supplementary material will host extended tables, additional figures,
+and detailed protocol descriptions.
+
+---
+
+## 3. Repository layout (planned)
+
+This repository will be progressively organised as follows:
+
+- `chapters/` – Drafts and final versions of each chapter (LaTeX/Quarto/Markdown).  
+- `figures/` – Source files for figures (R scripts, Illustrator/Inkscape, etc.).  
+- `tables/` – TSV/CSV tables used in the main text and supplements.  
+- `data-manifests/` – Manifests describing which PRIDE datasets (PXD) are used,
+  with links and checksums.  
+- `analysis-notebooks/` – R/Python notebooks for EDA, statistics and plotting.  
+- `supplementary/` – Material for online supplements or additional files.  
+
+At this stage many of these folders may still be empty or under construction.
+
+---
+
+## 4. Related repositories
+
+The thesis is tightly connected to the following public repositories:
+
+- **EpiProfile_PLANTS (MATLAB)**  
+  <https://github.com/biopelayo/epiprofile-plants>
+
+- **EpiProfile_PLANTS workflow (Docker / Snakemake)**  
+  <https://github.com/biopelayo/epiprofile-plants-workflow>
+
+- **Personal profile and project overview**  
+  <https://github.com/biopelayo/biopelayo>  
+  <https://biopelayo.github.io>
+
+---
+
+## 5. Contact
+
+For questions or collaborations related to this thesis and the associated tools:
+
+- Email: **bio.pelayo@gmail.com**
+- ORCID: *(to be added)*
+- Affiliation: University of Oviedo – FPI fellow
